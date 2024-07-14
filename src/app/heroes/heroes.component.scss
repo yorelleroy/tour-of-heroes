@@ -1,0 +1,48 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #333;
+  background-color: #eee;
+  width: 16rem;
+  border-radius: 4px;
+  height: 2.5rem;
+  position: relative;
+}
+.badge {
+  font-size: small;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  background-color: #405061;
+  min-width: 20px;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: 0.1rem;
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  background-color: white;
+  border: none;
+  right: 0;
+  z-index: 1;
+  font-size: 1rem;
+  padding: 0.1rem 0.7rem;
+  right: 0.5rem;
+  border-radius: 4px;
+}
+
+.delete:hover {
+  background-color: #525252;
+  color: white;
+  cursor: pointer;
+}

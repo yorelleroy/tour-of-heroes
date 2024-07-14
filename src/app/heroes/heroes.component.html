@@ -1,0 +1,9 @@
+@for (hero of heroes; track $index) {
+<div class="hero-container">
+  <div class="badge">{{ hero.id }}</div>
+  <div class="name">{{ hero.name }}</div>
+  <button class="delete">x</button>
+</div>
+} @empty {
+<p>There are no heroes.</p>
+}
